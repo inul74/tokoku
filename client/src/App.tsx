@@ -1,11 +1,13 @@
-import Container from "./ui/Container";
+import "react-multi-carousel/lib/styles.css";
+
+import HomeBanner from "./ui/HomeBanner";
+import BannerCategories from "./ui/BannerCategories";
 
 function App() {
   return (
     <main>
-      <Container>
-        <p>Ecommerce app</p>
-      </Container>
+      <BannerCategories />
+      <HomeBanner />
     </main>
   );
 }
