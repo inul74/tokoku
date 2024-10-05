@@ -1,6 +1,8 @@
 import "react-multi-carousel/lib/styles.css";
 
 import HomeBanner from "./ui/HomeBanner";
+import Categories from "./ui/Categories";
+import Hightlights from "./ui/Hightlights";
 import BannerCategories from "./ui/BannerCategories";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <main>
       <BannerCategories />
       <HomeBanner />
+      <Hightlights />
+      <Categories />
     </main>
   );
 }
